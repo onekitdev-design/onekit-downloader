@@ -1,0 +1,19 @@
+{
+  "name": "onekit-downloader",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "OneKit VPS YouTube extraction API (yt-dlp + PO token provider + FFmpeg)",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test src/*.test.js"
+  },
+  "dependencies": {
+    "@fastify/rate-limit": "^10.3.0",
+    "fastify": "^5.6.1"
+  }
+}
