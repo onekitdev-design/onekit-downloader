@@ -1,6 +1,6 @@
 # OneKit Downloader
 
-Backend API for [OneKit](https://github.com/onekitdev-design/onekit) YouTube to MP3. Runs on a Linux VPS with **yt-dlp**, **bgutil-ytdlp-pot-provider**, and **FFmpeg**. The public OneKit site on Vercel calls this service with an API key only — browsers never talk to this host directly.
+Backend API for [OneKit](https://github.com/onekitdev-design/onekit) (private app repo) YouTube to MP3. Runs on a Linux VPS with **yt-dlp**, **bgutil-ytdlp-pot-provider**, and **FFmpeg**. The public OneKit site on Vercel calls this service with an API key only — browsers never talk to this host directly.
 
 ## Quick start (Docker)
 
